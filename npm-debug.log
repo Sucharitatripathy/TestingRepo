@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'test' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle angular-quickstart@1.0.0~pretest: angular-quickstart@1.0.0
+6 silly lifecycle angular-quickstart@1.0.0~pretest: no script for pretest, continuing
+7 info lifecycle angular-quickstart@1.0.0~test: angular-quickstart@1.0.0
+8 verbose lifecycle angular-quickstart@1.0.0~test: unsafe-perm in lifecycle true
+9 verbose lifecycle angular-quickstart@1.0.0~test: PATH: c:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;e:\Angular 2 Latest 2017\SessionDemos\Automated Testing\node_modules\.bin;c:\Users\sys\bin;.;C:\Program Files\Git\local\bin;C:\Program Files\Git\mingw\bin;C:\Program Files\Git\bin;C:\Program Files\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\nodejs\;c:\Program Files\Windows Kits\8.1\Windows Performance Toolkit\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SDKs\TypeScript\1.0\;c:\Program Files\Microsoft SQL Server\120\Tools\Binn\;c:\JMeter\bin;c:\bin;c:\program files\skype\Phone\;c:\Program Files\Brackets\command;c:\Users\sys\AppData\Roaming\npm;c:\Program Files\Microsoft VS Code\bin
+10 verbose lifecycle angular-quickstart@1.0.0~test: CWD: e:\Angular 2 Latest 2017\SessionDemos\Automated Testing
+11 silly lifecycle angular-quickstart@1.0.0~test: Args: [ '/d /s /c',
+11 silly lifecycle   'tsc && concurrently "tsc -w" "karma start karma.conf.js"' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1026:11)
+12 verbose stack     at process.kill (internal/process.js:172:13)
+12 verbose stack     at process.listener (c:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (c:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+13 verbose cwd e:\Angular 2 Latest 2017\SessionDemos\Automated Testing
+14 error Windows_NT 6.2.9200
+15 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "test"
+16 error node v6.9.1
+17 error npm  v3.10.8
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
